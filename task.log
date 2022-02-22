@@ -1,0 +1,454 @@
+2022-02-22 21:12:51,488 DEBUG pickle loaded: C:\Users\neeti\Anaconda3\lib\logging\__init__.py
+2022-02-22 21:13:06,695 DEBUG diff parser start
+2022-02-22 21:13:06,697 DEBUG line_lengths old: 3; new: 3
+2022-02-22 21:13:06,698 DEBUG -> code[equal] old[1:2] new[1:2]
+2022-02-22 21:13:06,701 DEBUG parse_part from 1 to 3 (to 2 in part parser)
+2022-02-22 21:13:06,702 DEBUG -> code[replace] old[3:3] new[3:3]
+2022-02-22 21:13:06,702 DEBUG diff parser end
+2022-02-22 21:13:07,992 DEBUG diff parser start
+2022-02-22 21:13:07,993 DEBUG line_lengths old: 3; new: 3
+2022-02-22 21:13:07,993 DEBUG -> code[equal] old[1:2] new[1:2]
+2022-02-22 21:13:07,997 DEBUG parse_part from 1 to 3 (to 2 in part parser)
+2022-02-22 21:13:07,998 DEBUG -> code[replace] old[3:3] new[3:3]
+2022-02-22 21:13:08,000 DEBUG diff parser end
+2022-02-22 21:13:08,197 DEBUG diff parser start
+2022-02-22 21:13:08,198 DEBUG line_lengths old: 3; new: 3
+2022-02-22 21:13:08,198 DEBUG -> code[equal] old[1:2] new[1:2]
+2022-02-22 21:13:08,201 DEBUG parse_part from 1 to 3 (to 2 in part parser)
+2022-02-22 21:13:08,201 DEBUG -> code[replace] old[3:3] new[3:3]
+2022-02-22 21:13:08,202 DEBUG diff parser end
+2022-02-22 21:13:27,140 DEBUG diff parser start
+2022-02-22 21:13:27,141 DEBUG line_lengths old: 3; new: 5
+2022-02-22 21:13:27,142 DEBUG -> code[equal] old[1:2] new[1:2]
+2022-02-22 21:13:27,146 DEBUG parse_part from 1 to 5 (to 4 in part parser)
+2022-02-22 21:13:27,146 DEBUG -> code[replace] old[3:3] new[3:5]
+2022-02-22 21:13:27,147 DEBUG diff parser end
+2022-02-22 21:13:44,841 DEBUG diff parser start
+2022-02-22 21:13:44,842 DEBUG line_lengths old: 5; new: 6
+2022-02-22 21:13:44,842 DEBUG -> code[equal] old[1:4] new[1:4]
+2022-02-22 21:13:44,849 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:13:44,849 DEBUG -> code[replace] old[5:5] new[5:6]
+2022-02-22 21:13:44,849 DEBUG diff parser end
+2022-02-22 21:14:38,858 INFO installing pymongo
+2022-02-22 21:21:34,844 DEBUG diff parser start
+2022-02-22 21:21:34,846 DEBUG line_lengths old: 6; new: 8
+2022-02-22 21:21:34,846 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:21:34,850 DEBUG parse_part from 1 to 8 (to 7 in part parser)
+2022-02-22 21:21:34,850 DEBUG -> code[replace] old[2:3] new[2:5]
+2022-02-22 21:21:34,850 DEBUG -> code[equal] old[4:4] new[6:6]
+2022-02-22 21:21:34,850 DEBUG -> code[replace] old[5:6] new[7:8]
+2022-02-22 21:21:34,851 DEBUG diff parser end
+2022-02-22 21:23:10,977 DEBUG diff parser start
+2022-02-22 21:23:10,978 DEBUG line_lengths old: 8; new: 16
+2022-02-22 21:23:10,979 DEBUG -> code[equal] old[1:7] new[1:7]
+2022-02-22 21:23:10,992 DEBUG parse_part from 1 to 16 (to 15 in part parser)
+2022-02-22 21:23:10,992 DEBUG -> code[replace] old[8:8] new[8:16]
+2022-02-22 21:23:10,993 DEBUG diff parser end
+2022-02-22 21:23:29,204 DEBUG diff parser start
+2022-02-22 21:23:29,205 DEBUG line_lengths old: 16; new: 14
+2022-02-22 21:23:29,206 DEBUG -> code[equal] old[1:13] new[1:13]
+2022-02-22 21:23:29,213 DEBUG parse_part from 1 to 14 (to 13 in part parser)
+2022-02-22 21:23:29,214 DEBUG -> code[replace] old[14:16] new[14:14]
+2022-02-22 21:23:29,214 DEBUG diff parser end
+2022-02-22 21:23:29,388 DEBUG pickle loaded: C:\Users\neeti\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2022-02-22 21:23:29,556 DEBUG pickle loaded: C:\Users\neeti\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi
+2022-02-22 21:28:28,272 INFO importing pymongo
+2022-02-22 21:28:30,785 INFO connecting with Mongo client using the mongo db clustor link
+2022-02-22 21:28:30,786 ERROR error while creating a database with mongo db
+2022-02-22 21:28:30,786 ERROR exception whil creating database with mongo dbcan only concatenate str (not "Database") to str
+Traceback (most recent call last):
+  File "C:\Users\neeti\AppData\Local\Temp/ipykernel_1772/1094921089.py", line 13, in <module>
+    logging.info("database created with mongo client"+db)
+TypeError: can only concatenate str (not "Database") to str
+2022-02-22 21:33:31,405 DEBUG diff parser start
+2022-02-22 21:33:31,406 DEBUG line_lengths old: 14; new: 6
+2022-02-22 21:33:31,407 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:33:31,411 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:33:31,412 DEBUG -> code[replace] old[2:5] new[2:3]
+2022-02-22 21:33:31,413 DEBUG -> code[equal] old[6:6] new[4:4]
+2022-02-22 21:33:31,414 DEBUG -> code[replace] old[7:14] new[5:6]
+2022-02-22 21:33:31,415 DEBUG diff parser end
+2022-02-22 21:34:54,225 INFO collection carbon_nano created in database
+2022-02-22 21:36:51,099 DEBUG diff parser start
+2022-02-22 21:36:51,100 DEBUG line_lengths old: 6; new: 6
+2022-02-22 21:36:51,101 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:36:51,107 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:36:51,108 DEBUG -> code[replace] old[2:3] new[2:3]
+2022-02-22 21:36:51,108 DEBUG -> code[equal] old[4:4] new[4:4]
+2022-02-22 21:36:51,109 DEBUG -> code[replace] old[5:5] new[5:5]
+2022-02-22 21:36:51,109 DEBUG -> code[equal] old[6:6] new[6:6]
+2022-02-22 21:36:51,110 DEBUG diff parser end
+2022-02-22 21:38:43,304 INFO NumExpr defaulting to 4 threads.
+2022-02-22 21:38:48,928 INFO importing pandas library
+2022-02-22 21:39:05,114 DEBUG diff parser start
+2022-02-22 21:39:05,116 DEBUG line_lengths old: 6; new: 4
+2022-02-22 21:39:05,116 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:39:05,120 DEBUG parse_part from 1 to 4 (to 3 in part parser)
+2022-02-22 21:39:05,122 DEBUG -> code[replace] old[2:6] new[2:4]
+2022-02-22 21:39:05,122 DEBUG diff parser end
+2022-02-22 21:39:10,751 DEBUG diff parser start
+2022-02-22 21:39:10,752 DEBUG line_lengths old: 4; new: 5
+2022-02-22 21:39:10,754 DEBUG -> code[equal] old[1:3] new[1:3]
+2022-02-22 21:39:10,755 DEBUG parse_part from 1 to 5 (to 4 in part parser)
+2022-02-22 21:39:10,755 DEBUG -> code[replace] old[4:4] new[4:5]
+2022-02-22 21:39:10,755 DEBUG diff parser end
+2022-02-22 21:39:29,513 DEBUG diff parser start
+2022-02-22 21:39:29,514 DEBUG line_lengths old: 5; new: 6
+2022-02-22 21:39:29,515 DEBUG -> code[equal] old[1:4] new[1:4]
+2022-02-22 21:39:29,522 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:39:29,523 DEBUG -> code[replace] old[5:5] new[5:6]
+2022-02-22 21:39:29,523 DEBUG diff parser end
+2022-02-22 21:39:31,381 DEBUG diff parser start
+2022-02-22 21:39:31,382 DEBUG line_lengths old: 6; new: 6
+2022-02-22 21:39:31,383 DEBUG -> code[equal] old[1:5] new[1:5]
+2022-02-22 21:39:31,389 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:39:31,390 DEBUG -> code[replace] old[6:6] new[6:6]
+2022-02-22 21:39:31,391 DEBUG diff parser end
+2022-02-22 21:39:48,234 INFO reading csv file using pandas
+2022-02-22 21:40:29,624 DEBUG diff parser start
+2022-02-22 21:40:29,625 DEBUG line_lengths old: 6; new: 4
+2022-02-22 21:40:29,626 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:40:29,630 DEBUG parse_part from 1 to 4 (to 3 in part parser)
+2022-02-22 21:40:29,630 DEBUG -> code[replace] old[2:6] new[2:4]
+2022-02-22 21:40:29,631 DEBUG diff parser end
+2022-02-22 21:40:35,428 DEBUG diff parser start
+2022-02-22 21:40:35,428 DEBUG line_lengths old: 4; new: 5
+2022-02-22 21:40:35,430 DEBUG -> code[equal] old[1:3] new[1:3]
+2022-02-22 21:40:35,435 DEBUG parse_part from 1 to 5 (to 4 in part parser)
+2022-02-22 21:40:35,436 DEBUG -> code[replace] old[4:4] new[4:5]
+2022-02-22 21:40:35,437 DEBUG diff parser end
+2022-02-22 21:40:50,217 DEBUG diff parser start
+2022-02-22 21:40:50,218 DEBUG line_lengths old: 5; new: 6
+2022-02-22 21:40:50,219 DEBUG -> code[equal] old[1:4] new[1:4]
+2022-02-22 21:40:50,223 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:40:50,223 DEBUG -> code[replace] old[5:5] new[5:6]
+2022-02-22 21:40:50,223 DEBUG diff parser end
+2022-02-22 21:40:53,899 DEBUG diff parser start
+2022-02-22 21:40:53,899 DEBUG line_lengths old: 6; new: 6
+2022-02-22 21:40:53,900 DEBUG -> code[equal] old[1:5] new[1:5]
+2022-02-22 21:40:53,906 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:40:53,907 DEBUG -> code[replace] old[6:6] new[6:6]
+2022-02-22 21:40:53,907 DEBUG diff parser end
+2022-02-22 21:41:30,237 INFO converting csv file records into dictionary so as to insert them into mongo database
+2022-02-22 21:42:08,679 DEBUG diff parser start
+2022-02-22 21:42:08,680 DEBUG line_lengths old: 6; new: 4
+2022-02-22 21:42:08,681 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:42:08,686 DEBUG parse_part from 1 to 4 (to 3 in part parser)
+2022-02-22 21:42:08,687 DEBUG -> code[replace] old[2:6] new[2:4]
+2022-02-22 21:42:08,687 DEBUG diff parser end
+2022-02-22 21:42:15,608 DEBUG diff parser start
+2022-02-22 21:42:15,609 DEBUG line_lengths old: 4; new: 5
+2022-02-22 21:42:15,610 DEBUG -> code[equal] old[1:3] new[1:3]
+2022-02-22 21:42:15,613 DEBUG parse_part from 1 to 5 (to 4 in part parser)
+2022-02-22 21:42:15,614 DEBUG -> code[replace] old[4:4] new[4:5]
+2022-02-22 21:42:15,615 DEBUG diff parser end
+2022-02-22 21:42:39,522 DEBUG diff parser start
+2022-02-22 21:42:39,523 DEBUG line_lengths old: 5; new: 6
+2022-02-22 21:42:39,523 DEBUG -> code[equal] old[1:4] new[1:4]
+2022-02-22 21:42:39,527 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:42:39,527 DEBUG -> code[replace] old[5:5] new[5:6]
+2022-02-22 21:42:39,528 DEBUG diff parser end
+2022-02-22 21:42:39,920 DEBUG diff parser start
+2022-02-22 21:42:39,921 DEBUG line_lengths old: 6; new: 6
+2022-02-22 21:42:39,921 DEBUG -> code[equal] old[1:5] new[1:5]
+2022-02-22 21:42:39,925 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:42:39,925 DEBUG -> code[replace] old[6:6] new[6:6]
+2022-02-22 21:42:39,925 DEBUG diff parser end
+2022-02-22 21:43:06,884 INFO displaying top 5 records of data frame
+2022-02-22 21:43:58,036 DEBUG diff parser start
+2022-02-22 21:43:58,037 DEBUG line_lengths old: 6; new: 4
+2022-02-22 21:43:58,038 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:43:58,041 DEBUG parse_part from 1 to 4 (to 3 in part parser)
+2022-02-22 21:43:58,042 DEBUG -> code[replace] old[2:6] new[2:4]
+2022-02-22 21:43:58,042 DEBUG diff parser end
+2022-02-22 21:44:34,599 DEBUG diff parser start
+2022-02-22 21:44:34,600 DEBUG line_lengths old: 4; new: 6
+2022-02-22 21:44:34,601 DEBUG -> code[equal] old[1:3] new[1:3]
+2022-02-22 21:44:34,605 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:44:34,606 DEBUG -> code[replace] old[4:4] new[4:6]
+2022-02-22 21:44:34,606 DEBUG diff parser end
+2022-02-22 21:44:36,834 DEBUG diff parser start
+2022-02-22 21:44:36,835 DEBUG line_lengths old: 6; new: 6
+2022-02-22 21:44:36,836 DEBUG -> code[equal] old[1:5] new[1:5]
+2022-02-22 21:44:36,840 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:44:36,841 DEBUG -> code[replace] old[6:6] new[6:6]
+2022-02-22 21:44:36,842 DEBUG diff parser end
+2022-02-22 21:46:44,789 INFO inserting documents into collection in mongo database
+2022-02-22 21:49:22,103 DEBUG diff parser start
+2022-02-22 21:49:22,104 DEBUG line_lengths old: 6; new: 19
+2022-02-22 21:49:22,105 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:49:22,121 DEBUG parse_part from 1 to 19 (to 18 in part parser)
+2022-02-22 21:49:22,121 DEBUG -> code[replace] old[2:6] new[2:19]
+2022-02-22 21:49:22,122 DEBUG diff parser end
+2022-02-22 21:49:23,712 DEBUG diff parser start
+2022-02-22 21:49:23,713 DEBUG line_lengths old: 19; new: 19
+2022-02-22 21:49:23,714 DEBUG -> code[equal] old[1:18] new[1:18]
+2022-02-22 21:49:23,726 DEBUG parse_part from 1 to 19 (to 18 in part parser)
+2022-02-22 21:49:23,727 DEBUG -> code[replace] old[19:19] new[19:19]
+2022-02-22 21:49:23,727 DEBUG diff parser end
+2022-02-22 21:49:50,840 DEBUG diff parser start
+2022-02-22 21:49:50,841 DEBUG line_lengths old: 19; new: 20
+2022-02-22 21:49:50,842 DEBUG -> code[equal] old[1:18] new[1:18]
+2022-02-22 21:49:50,855 DEBUG parse_part from 1 to 20 (to 19 in part parser)
+2022-02-22 21:49:50,856 DEBUG -> code[replace] old[19:19] new[19:20]
+2022-02-22 21:49:50,856 DEBUG diff parser end
+2022-02-22 21:49:52,545 DEBUG diff parser start
+2022-02-22 21:49:52,546 DEBUG line_lengths old: 20; new: 20
+2022-02-22 21:49:52,547 DEBUG -> code[equal] old[1:19] new[1:19]
+2022-02-22 21:49:52,557 DEBUG parse_part from 1 to 20 (to 19 in part parser)
+2022-02-22 21:49:52,558 DEBUG -> code[replace] old[20:20] new[20:20]
+2022-02-22 21:49:52,559 DEBUG diff parser end
+2022-02-22 21:50:01,150 DEBUG diff parser start
+2022-02-22 21:50:01,151 DEBUG line_lengths old: 20; new: 20
+2022-02-22 21:50:01,152 DEBUG -> code[equal] old[1:19] new[1:19]
+2022-02-22 21:50:01,168 DEBUG parse_part from 1 to 20 (to 19 in part parser)
+2022-02-22 21:50:01,169 DEBUG -> code[replace] old[20:20] new[20:20]
+2022-02-22 21:50:01,170 DEBUG diff parser end
+2022-02-22 21:50:02,500 DEBUG diff parser start
+2022-02-22 21:50:02,501 DEBUG line_lengths old: 20; new: 20
+2022-02-22 21:50:02,502 DEBUG -> code[equal] old[1:19] new[1:19]
+2022-02-22 21:50:02,521 DEBUG parse_part from 1 to 20 (to 19 in part parser)
+2022-02-22 21:50:02,522 DEBUG -> code[replace] old[20:20] new[20:20]
+2022-02-22 21:50:02,522 DEBUG diff parser end
+2022-02-22 21:50:32,684 DEBUG diff parser start
+2022-02-22 21:50:32,686 DEBUG line_lengths old: 20; new: 22
+2022-02-22 21:50:32,686 DEBUG -> code[equal] old[1:18] new[1:18]
+2022-02-22 21:50:32,702 DEBUG parse_part from 1 to 22 (to 21 in part parser)
+2022-02-22 21:50:32,703 DEBUG -> code[replace] old[19:20] new[19:22]
+2022-02-22 21:50:32,704 DEBUG diff parser end
+2022-02-22 21:50:34,863 DEBUG diff parser start
+2022-02-22 21:50:34,864 DEBUG line_lengths old: 22; new: 22
+2022-02-22 21:50:34,865 DEBUG -> code[equal] old[1:21] new[1:21]
+2022-02-22 21:50:34,880 DEBUG parse_part from 1 to 22 (to 21 in part parser)
+2022-02-22 21:50:34,881 DEBUG -> code[replace] old[22:22] new[22:22]
+2022-02-22 21:50:34,882 DEBUG diff parser end
+2022-02-22 21:51:02,117 INFO inserting new documents into the collection carbon_nano
+2022-02-22 21:52:10,764 DEBUG diff parser start
+2022-02-22 21:52:10,765 DEBUG line_lengths old: 22; new: 4
+2022-02-22 21:52:10,766 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:52:10,770 DEBUG parse_part from 1 to 4 (to 3 in part parser)
+2022-02-22 21:52:10,771 DEBUG -> code[replace] old[2:22] new[2:4]
+2022-02-22 21:52:10,771 DEBUG diff parser end
+2022-02-22 21:52:13,224 DEBUG diff parser start
+2022-02-22 21:52:13,226 DEBUG line_lengths old: 4; new: 4
+2022-02-22 21:52:13,227 DEBUG -> code[equal] old[1:3] new[1:3]
+2022-02-22 21:52:13,234 DEBUG parse_part from 1 to 4 (to 3 in part parser)
+2022-02-22 21:52:13,235 DEBUG -> code[replace] old[4:4] new[4:4]
+2022-02-22 21:52:13,236 DEBUG diff parser end
+2022-02-22 21:52:22,160 DEBUG diff parser start
+2022-02-22 21:52:22,161 DEBUG line_lengths old: 4; new: 5
+2022-02-22 21:52:22,162 DEBUG -> code[equal] old[1:3] new[1:3]
+2022-02-22 21:52:22,167 DEBUG parse_part from 1 to 5 (to 4 in part parser)
+2022-02-22 21:52:22,168 DEBUG -> code[replace] old[4:4] new[4:5]
+2022-02-22 21:52:22,169 DEBUG diff parser end
+2022-02-22 21:52:42,286 INFO updating the dcouments where Calculated atomic coordinates W is NaN
+2022-02-22 21:55:24,034 DEBUG diff parser start
+2022-02-22 21:55:24,036 DEBUG line_lengths old: 5; new: 4
+2022-02-22 21:55:24,037 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:55:24,040 DEBUG parse_part from 1 to 4 (to 3 in part parser)
+2022-02-22 21:55:24,041 DEBUG -> code[replace] old[2:5] new[2:4]
+2022-02-22 21:55:24,041 DEBUG diff parser end
+2022-02-22 21:55:29,594 DEBUG diff parser start
+2022-02-22 21:55:29,594 DEBUG line_lengths old: 4; new: 5
+2022-02-22 21:55:29,594 DEBUG -> code[equal] old[1:3] new[1:3]
+2022-02-22 21:55:29,599 DEBUG parse_part from 1 to 5 (to 4 in part parser)
+2022-02-22 21:55:29,599 DEBUG -> code[replace] old[4:4] new[4:5]
+2022-02-22 21:55:29,600 DEBUG diff parser end
+2022-02-22 21:55:51,779 DEBUG diff parser start
+2022-02-22 21:55:51,780 DEBUG line_lengths old: 5; new: 6
+2022-02-22 21:55:51,781 DEBUG -> code[equal] old[1:4] new[1:4]
+2022-02-22 21:55:51,787 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:55:51,788 DEBUG -> code[replace] old[5:5] new[5:6]
+2022-02-22 21:55:51,788 DEBUG diff parser end
+2022-02-22 21:55:53,504 DEBUG diff parser start
+2022-02-22 21:55:53,506 DEBUG line_lengths old: 6; new: 6
+2022-02-22 21:55:53,507 DEBUG -> code[equal] old[1:5] new[1:5]
+2022-02-22 21:55:53,512 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:55:53,514 DEBUG -> code[replace] old[6:6] new[6:6]
+2022-02-22 21:55:53,514 DEBUG diff parser end
+2022-02-22 21:56:15,993 INFO deleting a document where chiral indice n is '1;0;1'
+2022-02-22 21:56:45,637 DEBUG diff parser start
+2022-02-22 21:56:45,638 DEBUG line_lengths old: 6; new: 3
+2022-02-22 21:56:45,639 DEBUG -> code[replace] old[1:6] new[1:3]
+2022-02-22 21:56:45,642 DEBUG parse_part from 1 to 3 (to 2 in part parser)
+2022-02-22 21:56:45,642 DEBUG diff parser end
+2022-02-22 21:56:45,688 DEBUG pickle loaded: C:\Users\neeti\Anaconda3\lib\site-packages\pymongo\collection.py
+2022-02-22 21:56:45,709 DEBUG pickle loaded: C:\Users\neeti\Anaconda3\lib\site-packages\pymongo\__init__.py
+2022-02-22 21:56:45,740 DEBUG pickle loaded: C:\Users\neeti\Anaconda3\lib\site-packages\pymongo\common.py
+2022-02-22 21:58:35,007 DEBUG diff parser start
+2022-02-22 21:58:35,009 DEBUG line_lengths old: 3; new: 4
+2022-02-22 21:58:35,010 DEBUG -> code[replace] old[1:3] new[1:4]
+2022-02-22 21:58:35,017 DEBUG parse_part from 1 to 4 (to 3 in part parser)
+2022-02-22 21:58:35,018 DEBUG diff parser end
+2022-02-22 21:58:58,700 DEBUG diff parser start
+2022-02-22 21:58:58,701 DEBUG line_lengths old: 4; new: 6
+2022-02-22 21:58:58,701 DEBUG -> code[equal] old[1:1] new[1:1]
+2022-02-22 21:58:58,708 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:58:58,709 DEBUG -> code[insert] old[2:1] new[2:2]
+2022-02-22 21:58:58,710 DEBUG -> code[equal] old[2:3] new[3:4]
+2022-02-22 21:58:58,710 DEBUG -> code[replace] old[4:4] new[5:6]
+2022-02-22 21:58:58,711 DEBUG diff parser end
+2022-02-22 21:59:01,262 DEBUG diff parser start
+2022-02-22 21:59:01,263 DEBUG line_lengths old: 6; new: 6
+2022-02-22 21:59:01,264 DEBUG -> code[equal] old[1:5] new[1:5]
+2022-02-22 21:59:01,270 DEBUG parse_part from 1 to 6 (to 5 in part parser)
+2022-02-22 21:59:01,271 DEBUG -> code[replace] old[6:6] new[6:6]
+2022-02-22 21:59:01,271 DEBUG diff parser end
+2022-02-22 21:59:16,949 INFO displaying record
+2022-02-22 21:59:21,397 INFO {'_id': ObjectId('62150c4588daef0b1a14279a'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '712201;0', 'Initial atomic coordinate u': '839176;0', 'Initial atomic coordinate v': '013758;0', 'Initial atomic coordinate w': '718752;0', "Calculated atomic coordinates u'": '84995;0', "Calculated atomic coordinates v'": 13639.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,398 INFO {'_id': ObjectId('62150c4588daef0b1a14279b'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '535508;0', 'Initial atomic coordinate u': '812967;0', 'Initial atomic coordinate v': '026578;0', 'Initial atomic coordinate w': '537723;0', "Calculated atomic coordinates u'": '824081;0', "Calculated atomic coordinates v'": 2679.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,398 INFO {'_id': ObjectId('62150c4588daef0b1a14279c'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '480367;0', 'Initial atomic coordinate u': '786506;0', 'Initial atomic coordinate v': '07786;0', 'Initial atomic coordinate w': '480085;0', "Calculated atomic coordinates u'": '796017;0', "Calculated atomic coordinates v'": 77763.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,398 INFO {'_id': ObjectId('62150c4588daef0b1a14279d'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '800711;0', 'Initial atomic coordinate u': '792748;0', 'Initial atomic coordinate v': '052219;0', 'Initial atomic coordinate w': '80951;0', "Calculated atomic coordinates u'": '800935;0', "Calculated atomic coordinates v'": 5231.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,399 INFO {'_id': ObjectId('62150c4588daef0b1a14279e'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '770442;0', 'Initial atomic coordinate u': '817544;0', 'Initial atomic coordinate v': '103501;0', 'Initial atomic coordinate w': '777756;0', "Calculated atomic coordinates u'": '826235;0', "Calculated atomic coordinates v'": 103247.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,399 INFO {'_id': ObjectId('62150c4588daef0b1a14279f'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '831322;0', 'Initial atomic coordinate u': '741592;0', 'Initial atomic coordinate v': '141963;0', 'Initial atomic coordinate w': '840186;0', "Calculated atomic coordinates u'": '747541;0', "Calculated atomic coordinates v'": 142132.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,399 INFO {'_id': ObjectId('62150c4588daef0b1a1427a0'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '812967;0', 'Initial atomic coordinate u': '777458;0', 'Initial atomic coordinate v': '193245;0', 'Initial atomic coordinate w': '824224;0', "Calculated atomic coordinates u'": '787161;0', "Calculated atomic coordinates v'": 193091.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,400 INFO {'_id': ObjectId('62150c4588daef0b1a1427a1'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '187033;0', 'Initial atomic coordinate u': '222542;0', 'Initial atomic coordinate v': '026578;0', 'Initial atomic coordinate w': '175776;0', "Calculated atomic coordinates u'": '212839;0', "Calculated atomic coordinates v'": 26424.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,400 INFO {'_id': ObjectId('62150c4588daef0b1a1427a2'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '23963;0', 'Initial atomic coordinate u': '562823;0', 'Initial atomic coordinate v': '000937;0', 'Initial atomic coordinate w': '233582;0', "Calculated atomic coordinates u'": '56548;0', "Calculated atomic coordinates v'": 1174.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,400 INFO {'_id': ObjectId('62150c4588daef0b1a1427a3'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '207252;0', 'Initial atomic coordinate u': '507963;0', 'Initial atomic coordinate v': '052219;0', 'Initial atomic coordinate w': '19996;0', "Calculated atomic coordinates u'": '508269;0', "Calculated atomic coordinates v'": 52158.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,400 INFO {'_id': ObjectId('62150c4588daef0b1a1427a4'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '300532;0', 'Initial atomic coordinate u': '641627;0', 'Initial atomic coordinate v': '090681;0', 'Initial atomic coordinate w': '295534;0', "Calculated atomic coordinates u'": '645899;0', "Calculated atomic coordinates v'": 90956.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,401 INFO {'_id': ObjectId('62150c4588daef0b1a1427a5'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '258408;0', 'Initial atomic coordinate u': '58973;0', 'Initial atomic coordinate v': '141963;0', 'Initial atomic coordinate w': '251935;0', "Calculated atomic coordinates u'": '591484;0', "Calculated atomic coordinates v'": 141967.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,401 INFO {'_id': ObjectId('62150c4588daef0b1a1427a6'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '616055;0', 'Initial atomic coordinate u': '837302;0', 'Initial atomic coordinate v': '116322;0', 'Initial atomic coordinate w': '62016;0', "Calculated atomic coordinates u'": '847847;0', "Calculated atomic coordinates v'": 116409.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,401 INFO {'_id': ObjectId('62150c4588daef0b1a1427a7'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '562823;0', 'Initial atomic coordinate u': '823192;0', 'Initial atomic coordinate v': '167604;0', 'Initial atomic coordinate w': '565441;0', "Calculated atomic coordinates u'": '832521;0', "Calculated atomic coordinates v'": 167437.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,402 INFO {'_id': ObjectId('62150c4588daef0b1a1427a8'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '689857;0', 'Initial atomic coordinate u': '842035;0', 'Initial atomic coordinate v': '206065;0', 'Initial atomic coordinate w': '697666;0', "Calculated atomic coordinates u'": '854216;0', "Calculated atomic coordinates v'": 206176.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,402 INFO {'_id': ObjectId('62150c4588daef0b1a1427a9'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '641627;0', 'Initial atomic coordinate u': '841096;0', 'Initial atomic coordinate v': '257347;0', 'Initial atomic coordinate w': '646547;0', "Calculated atomic coordinates u'": '852653;0', "Calculated atomic coordinates v'": 257122.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,402 INFO {'_id': ObjectId('62150c4588daef0b1a1427aa'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '842677;0', 'Initial atomic coordinate u': '676395;0', 'Initial atomic coordinate v': '231706;0', 'Initial atomic coordinate w': '853659;0', "Calculated atomic coordinates u'": '68182;0', "Calculated atomic coordinates v'": 231918.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,402 INFO {'_id': ObjectId('62150c4588daef0b1a1427ab'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '837302;0', 'Initial atomic coordinate u': '721248;0', 'Initial atomic coordinate v': '282988;0', 'Initial atomic coordinate w': '847932;0', "Calculated atomic coordinates u'": '728745;0', "Calculated atomic coordinates v'": 282902.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,403 INFO {'_id': ObjectId('62150c4588daef0b1a1427ac'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '437177;0', 'Initial atomic coordinate u': '176808;0', 'Initial atomic coordinate v': '000937;0', 'Initial atomic coordinate w': '434559;0', "Calculated atomic coordinates u'": '167479;0', "Calculated atomic coordinates v'": 77.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,403 INFO {'_id': ObjectId('62150c4588daef0b1a1427ad'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '310143;0', 'Initial atomic coordinate u': '157965;0', 'Initial atomic coordinate v': '039399;0', 'Initial atomic coordinate w': '302334;0', "Calculated atomic coordinates u'": '145784;0', "Calculated atomic coordinates v'": 3951.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,403 INFO {'_id': ObjectId('62150c4588daef0b1a1427ae'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '358373;0', 'Initial atomic coordinate u': '158904;0', 'Initial atomic coordinate v': '090681;0', 'Initial atomic coordinate w': '353453;0', "Calculated atomic coordinates u'": '147347;0', "Calculated atomic coordinates v'": 90456.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,403 INFO {'_id': ObjectId('62150c4588daef0b1a1427af'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '157323;0', 'Initial atomic coordinate u': '323605;0', 'Initial atomic coordinate v': '06504;0', 'Initial atomic coordinate w': '146341;0', "Calculated atomic coordinates u'": '31818;0', "Calculated atomic coordinates v'": 65251.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,404 INFO {'_id': ObjectId('62150c4588daef0b1a1427b0'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '162698;0', 'Initial atomic coordinate u': '278752;0', 'Initial atomic coordinate v': '116322;0', 'Initial atomic coordinate w': '152068;0', "Calculated atomic coordinates u'": '271255;0', "Calculated atomic coordinates v'": 116236.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,404 INFO {'_id': ObjectId('62150c4588daef0b1a1427b1'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '165883;0', 'Initial atomic coordinate u': '399052;0', 'Initial atomic coordinate v': '154783;0', 'Initial atomic coordinate w': '154989;0', "Calculated atomic coordinates u'": '395334;0', "Calculated atomic coordinates v'": 15494.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,404 INFO {'_id': ObjectId('62150c4588daef0b1a1427b2'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '157965;0', 'Initial atomic coordinate u': '347821;0', 'Initial atomic coordinate v': '206065;0', 'Initial atomic coordinate w': '146049;0', "Calculated atomic coordinates u'": '342194;0', "Calculated atomic coordinates v'": 205936.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,404 INFO {'_id': ObjectId('62150c4588daef0b1a1427b3'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '373025;0', 'Initial atomic coordinate u': '712201;0', 'Initial atomic coordinate v': '180424;0', 'Initial atomic coordinate w': '370413;0', "Calculated atomic coordinates u'": '718346;0', "Calculated atomic coordinates v'": 180515.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,405 INFO {'_id': ObjectId('62150c4588daef0b1a1427b4'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '323605;0', 'Initial atomic coordinate u': '666281;0', 'Initial atomic coordinate v': '231706;0', 'Initial atomic coordinate w': '318799;0', "Calculated atomic coordinates u'": '671125;0', "Calculated atomic coordinates v'": 231453.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,405 INFO {'_id': ObjectId('62150c4588daef0b1a1427b5'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '452898;0', 'Initial atomic coordinate u': '770442;0', 'Initial atomic coordinate v': '270168;0', 'Initial atomic coordinate w': '45224;0', "Calculated atomic coordinates u'": '777837;0', "Calculated atomic coordinates v'": 270228.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,405 INFO {'_id': ObjectId('62150c4588daef0b1a1427b6'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '399052;0', 'Initial atomic coordinate u': '733169;0', 'Initial atomic coordinate v': '32145;0', 'Initial atomic coordinate w': '39672;0', "Calculated atomic coordinates u'": '74002;0', "Calculated atomic coordinates v'": 321294.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,405 INFO {'_id': ObjectId('62150c4588daef0b1a1427b7'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '752625;0', 'Initial atomic coordinate u': '826891;0', 'Initial atomic coordinate v': '295809;0', 'Initial atomic coordinate w': '76054;0', "Calculated atomic coordinates u'": '836801;0', "Calculated atomic coordinates v'": 295984.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,406 INFO {'_id': ObjectId('62150c4588daef0b1a1427b8'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '712201;0', 'Initial atomic coordinate u': '839176;0', 'Initial atomic coordinate v': '347091;0', 'Initial atomic coordinate w': '718752;0', "Calculated atomic coordinates u'": '84995;0', "Calculated atomic coordinates v'": 346972.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,406 INFO {'_id': ObjectId('62150c4588daef0b1a1427b9'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '800711;0', 'Initial atomic coordinate u': '792748;0', 'Initial atomic coordinate v': '385552;0', 'Initial atomic coordinate w': '80951;0', "Calculated atomic coordinates u'": '800935;0', "Calculated atomic coordinates v'": 385643.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,406 INFO {'_id': ObjectId('62150c4588daef0b1a1427ba'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '770442;0', 'Initial atomic coordinate u': '817544;0', 'Initial atomic coordinate v': '436834;0', 'Initial atomic coordinate w': '777756;0', "Calculated atomic coordinates u'": '826235;0', "Calculated atomic coordinates v'": 436581.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,406 INFO {'_id': ObjectId('62150c4588daef0b1a1427bb'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '842035;0', 'Initial atomic coordinate u': '652179;0', 'Initial atomic coordinate v': '039399;0', 'Initial atomic coordinate w': '853951;0', "Calculated atomic coordinates u'": '657807;0', "Calculated atomic coordinates v'": 3927.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,407 INFO {'_id': ObjectId('62150c4588daef0b1a1427bc'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '626975;0', 'Initial atomic coordinate u': '287799;0', 'Initial atomic coordinate v': '013758;0', 'Initial atomic coordinate w': '629587;0', "Calculated atomic coordinates u'": '281655;0', "Calculated atomic coordinates v'": 13848.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,407 INFO {'_id': ObjectId('62150c4588daef0b1a1427bd'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '676395;0', 'Initial atomic coordinate u': '333719;0', 'Initial atomic coordinate v': '06504;0', 'Initial atomic coordinate w': '681201;0', "Calculated atomic coordinates u'": '328875;0', "Calculated atomic coordinates v'": 64787.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,407 INFO {'_id': ObjectId('62150c4588daef0b1a1427be'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '547102;0', 'Initial atomic coordinate u': '229558;0', 'Initial atomic coordinate v': '103501;0', 'Initial atomic coordinate w': '54776;0', "Calculated atomic coordinates u'": '222163;0', "Calculated atomic coordinates v'": 103562.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,407 INFO {'_id': ObjectId('62150c4588daef0b1a1427bf'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '600948;0', 'Initial atomic coordinate u': '266831;0', 'Initial atomic coordinate v': '154783;0', 'Initial atomic coordinate w': '60328;0', "Calculated atomic coordinates u'": '25998;0', "Calculated atomic coordinates v'": 154627.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,408 INFO {'_id': ObjectId('62150c4588daef0b1a1427c0'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '247375;0', 'Initial atomic coordinate u': '173109;0', 'Initial atomic coordinate v': '129142;0', 'Initial atomic coordinate w': '23946;0', "Calculated atomic coordinates u'": '163199;0', "Calculated atomic coordinates v'": 129317.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,408 INFO {'_id': ObjectId('62150c4588daef0b1a1427c1'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '287799;0', 'Initial atomic coordinate u': '160824;0', 'Initial atomic coordinate v': '180424;0', 'Initial atomic coordinate w': '281248;0', "Calculated atomic coordinates u'": '15005;0', "Calculated atomic coordinates v'": 180306.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,408 INFO {'_id': ObjectId('62150c4588daef0b1a1427c2'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '199289;0', 'Initial atomic coordinate u': '207252;0', 'Initial atomic coordinate v': '218886;0', 'Initial atomic coordinate w': '19049;0', "Calculated atomic coordinates u'": '199065;0', "Calculated atomic coordinates v'": 218976.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,408 INFO {'_id': ObjectId('62150c4588daef0b1a1427c3'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '229558;0', 'Initial atomic coordinate u': '182456;0', 'Initial atomic coordinate v': '270168;0', 'Initial atomic coordinate w': '222244;0', "Calculated atomic coordinates u'": '173765;0', "Calculated atomic coordinates v'": 269914.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,409 INFO {'_id': ObjectId('62150c4588daef0b1a1427c4'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '193861;0', 'Initial atomic coordinate u': '480367;0', 'Initial atomic coordinate v': '244527;0', 'Initial atomic coordinate w': '184634;0', "Calculated atomic coordinates u'": '480065;0', "Calculated atomic coordinates v'": 244572.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,409 INFO {'_id': ObjectId('62150c4588daef0b1a1427c5'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '173109;0', 'Initial atomic coordinate u': '425734;0', 'Initial atomic coordinate v': '295809;0', 'Initial atomic coordinate w': '164454;0', "Calculated atomic coordinates u'": '424181;0', "Calculated atomic coordinates v'": 29558.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,409 INFO {'_id': ObjectId('62150c4588daef0b1a1427c6'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '23963;0', 'Initial atomic coordinate u': '562823;0', 'Initial atomic coordinate v': '33427;0', 'Initial atomic coordinate w': '233582;0', "Calculated atomic coordinates u'": '56548;0', "Calculated atomic coordinates v'": 334508.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,409 INFO {'_id': ObjectId('62150c4588daef0b1a1427c7'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '207252;0', 'Initial atomic coordinate u': '507963;0', 'Initial atomic coordinate v': '385552;0', 'Initial atomic coordinate w': '19996;0', "Calculated atomic coordinates u'": '508269;0', "Calculated atomic coordinates v'": 385491.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,410 INFO {'_id': ObjectId('62150c4588daef0b1a1427c8'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '535508;0', 'Initial atomic coordinate u': '812967;0', 'Initial atomic coordinate v': '359911;0', 'Initial atomic coordinate w': '537723;0', "Calculated atomic coordinates u'": '824081;0', "Calculated atomic coordinates v'": 360124.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,410 INFO {'_id': ObjectId('62150c4588daef0b1a1427c9'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '480367;0', 'Initial atomic coordinate u': '786506;0', 'Initial atomic coordinate v': '411193;0', 'Initial atomic coordinate w': '480085;0', "Calculated atomic coordinates u'": '796017;0', "Calculated atomic coordinates v'": 411097.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,410 INFO {'_id': ObjectId('62150c4588daef0b1a1427ca'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '616055;0', 'Initial atomic coordinate u': '837302;0', 'Initial atomic coordinate v': '449655;0', 'Initial atomic coordinate w': '62016;0', "Calculated atomic coordinates u'": '847847;0', "Calculated atomic coordinates v'": 449743.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,410 INFO {'_id': ObjectId('62150c4588daef0b1a1427cb'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '562823;0', 'Initial atomic coordinate u': '823192;0', 'Initial atomic coordinate v': '500937;0', 'Initial atomic coordinate w': '565441;0', "Calculated atomic coordinates u'": '832521;0', "Calculated atomic coordinates v'": 50077.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,411 INFO {'_id': ObjectId('62150c4588daef0b1a1427cc'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '831322;0', 'Initial atomic coordinate u': '741592;0', 'Initial atomic coordinate v': '475296;0', 'Initial atomic coordinate w': '840186;0', "Calculated atomic coordinates u'": '747541;0', "Calculated atomic coordinates v'": 475465.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,411 INFO {'_id': ObjectId('62150c4588daef0b1a1427cd'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '812967;0', 'Initial atomic coordinate u': '777458;0', 'Initial atomic coordinate v': '526578;0', 'Initial atomic coordinate w': '824224;0', "Calculated atomic coordinates u'": '787161;0', "Calculated atomic coordinates v'": 526424.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,411 INFO {'_id': ObjectId('62150c4588daef0b1a1427ce'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '842677;0', 'Initial atomic coordinate u': '676395;0', 'Initial atomic coordinate v': '56504;0', 'Initial atomic coordinate w': '853659;0', "Calculated atomic coordinates u'": '68182;0', "Calculated atomic coordinates v'": 565251.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,411 INFO {'_id': ObjectId('62150c4588daef0b1a1427cf'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '837302;0', 'Initial atomic coordinate u': '721248;0', 'Initial atomic coordinate v': '616322;0', 'Initial atomic coordinate w': '847932;0', "Calculated atomic coordinates u'": '728745;0', "Calculated atomic coordinates v'": 616236.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,411 INFO {'_id': ObjectId('62150c4588daef0b1a1427d0'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '806139;0', 'Initial atomic coordinate u': '519633;0', 'Initial atomic coordinate v': '07786;0', 'Initial atomic coordinate w': '815366;0', "Calculated atomic coordinates u'": '519936;0', "Calculated atomic coordinates v'": 77905.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,412 INFO {'_id': ObjectId('62150c4588daef0b1a1427d1'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '826891;0', 'Initial atomic coordinate u': '574266;0', 'Initial atomic coordinate v': '129142;0', 'Initial atomic coordinate w': '835546;0', "Calculated atomic coordinates u'": '57582;0', "Calculated atomic coordinates v'": 128913.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,412 INFO {'_id': ObjectId('62150c4588daef0b1a1427d2'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '76037;0', 'Initial atomic coordinate u': '437177;0', 'Initial atomic coordinate v': '167604;0', 'Initial atomic coordinate w': '766418;0', "Calculated atomic coordinates u'": '43452;0', "Calculated atomic coordinates v'": 167841.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,412 INFO {'_id': ObjectId('62150c4588daef0b1a1427d3'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '792748;0', 'Initial atomic coordinate u': '492037;0', 'Initial atomic coordinate v': '218886;0', 'Initial atomic coordinate w': '80004;0', "Calculated atomic coordinates u'": '491731;0', "Calculated atomic coordinates v'": 218825.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,412 INFO {'_id': ObjectId('62150c4588daef0b1a1427d4'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '464492;0', 'Initial atomic coordinate u': '187033;0', 'Initial atomic coordinate v': '193245;0', 'Initial atomic coordinate w': '462277;0', "Calculated atomic coordinates u'": '175919;0', "Calculated atomic coordinates v'": 193457.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,413 INFO {'_id': ObjectId('62150c4588daef0b1a1427d5'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '519633;0', 'Initial atomic coordinate u': '213494;0', 'Initial atomic coordinate v': '244527;0', 'Initial atomic coordinate w': '519915;0', "Calculated atomic coordinates u'": '203983;0', "Calculated atomic coordinates v'": 24443.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,413 INFO {'_id': ObjectId('62150c4588daef0b1a1427d6'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '383945;0', 'Initial atomic coordinate u': '162698;0', 'Initial atomic coordinate v': '282988;0', 'Initial atomic coordinate w': '37984;0', "Calculated atomic coordinates u'": '152153;0', "Calculated atomic coordinates v'": 283076.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,413 INFO {'_id': ObjectId('62150c4588daef0b1a1427d7'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '437177;0', 'Initial atomic coordinate u': '176808;0', 'Initial atomic coordinate v': '33427;0', 'Initial atomic coordinate w': '434559;0', "Calculated atomic coordinates u'": '167479;0', "Calculated atomic coordinates v'": 334104.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,413 INFO {'_id': ObjectId('62150c4588daef0b1a1427d8'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '168678;0', 'Initial atomic coordinate u': '258408;0', 'Initial atomic coordinate v': '308629;0', 'Initial atomic coordinate w': '159814;0', "Calculated atomic coordinates u'": '252459;0', "Calculated atomic coordinates v'": 308798.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,414 INFO {'_id': ObjectId('62150c4588daef0b1a1427d9'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '187033;0', 'Initial atomic coordinate u': '222542;0', 'Initial atomic coordinate v': '359911;0', 'Initial atomic coordinate w': '175776;0', "Calculated atomic coordinates u'": '212839;0', "Calculated atomic coordinates v'": 359757.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,414 INFO {'_id': ObjectId('62150c4588daef0b1a1427da'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '157323;0', 'Initial atomic coordinate u': '323605;0', 'Initial atomic coordinate v': '398373;0', 'Initial atomic coordinate w': '146341;0', "Calculated atomic coordinates u'": '31818;0', "Calculated atomic coordinates v'": 398585.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,414 INFO {'_id': ObjectId('62150c4588daef0b1a1427db'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '162698;0', 'Initial atomic coordinate u': '278752;0', 'Initial atomic coordinate v': '449655;0', 'Initial atomic coordinate w': '152068;0', "Calculated atomic coordinates u'": '271255;0', "Calculated atomic coordinates v'": 449569.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,414 INFO {'_id': ObjectId('62150c4588daef0b1a1427dc'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '300532;0', 'Initial atomic coordinate u': '641627;0', 'Initial atomic coordinate v': '424014;0', 'Initial atomic coordinate w': '295534;0', "Calculated atomic coordinates u'": '645899;0', "Calculated atomic coordinates v'": 42429.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,415 INFO {'_id': ObjectId('62150c4588daef0b1a1427dd'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '258408;0', 'Initial atomic coordinate u': '58973;0', 'Initial atomic coordinate v': '475296;0', 'Initial atomic coordinate w': '251936;0', "Calculated atomic coordinates u'": '591484;0', "Calculated atomic coordinates v'": 475301.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,415 INFO {'_id': ObjectId('62150c4588daef0b1a1427de'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '373025;0', 'Initial atomic coordinate u': '712201;0', 'Initial atomic coordinate v': '513758;0', 'Initial atomic coordinate w': '370413;0', "Calculated atomic coordinates u'": '718346;0', "Calculated atomic coordinates v'": 513848.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,415 INFO {'_id': ObjectId('62150c4588daef0b1a1427df'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '323605;0', 'Initial atomic coordinate u': '666281;0', 'Initial atomic coordinate v': '56504;0', 'Initial atomic coordinate w': '318799;0', "Calculated atomic coordinates u'": '671125;0', "Calculated atomic coordinates v'": 564787.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,415 INFO {'_id': ObjectId('62150c4588daef0b1a1427e0'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '689857;0', 'Initial atomic coordinate u': '842035;0', 'Initial atomic coordinate v': '539399;0', 'Initial atomic coordinate w': '697666;0', "Calculated atomic coordinates u'": '854216;0', "Calculated atomic coordinates v'": 53951.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,416 INFO {'_id': ObjectId('62150c4588daef0b1a1427e1'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '641627;0', 'Initial atomic coordinate u': '841096;0', 'Initial atomic coordinate v': '590681;0', 'Initial atomic coordinate w': '646547;0', "Calculated atomic coordinates u'": '852653;0', "Calculated atomic coordinates v'": 590456.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,416 INFO {'_id': ObjectId('62150c4588daef0b1a1427e2'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '752625;0', 'Initial atomic coordinate u': '826891;0', 'Initial atomic coordinate v': '629142;0', 'Initial atomic coordinate w': '76054;0', "Calculated atomic coordinates u'": '836801;0', "Calculated atomic coordinates v'": 629317.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,416 INFO {'_id': ObjectId('62150c4588daef0b1a1427e3'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '712201;0', 'Initial atomic coordinate u': '839176;0', 'Initial atomic coordinate v': '680424;0', 'Initial atomic coordinate w': '718752;0', "Calculated atomic coordinates u'": '84995;0', "Calculated atomic coordinates v'": 680306.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,416 INFO {'_id': ObjectId('62150c4588daef0b1a1427e4'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '699468;0', 'Initial atomic coordinate u': '358373;0', 'Initial atomic coordinate v': '257347;0', 'Initial atomic coordinate w': '704466;0', "Calculated atomic coordinates u'": '354101;0', "Calculated atomic coordinates v'": 257623.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,417 INFO {'_id': ObjectId('62150c4588daef0b1a1427e5'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '741592;0', 'Initial atomic coordinate u': '41027;0', 'Initial atomic coordinate v': '308629;0', 'Initial atomic coordinate w': '748064;0', "Calculated atomic coordinates u'": '408516;0', "Calculated atomic coordinates v'": 308634.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,417 INFO {'_id': ObjectId('62150c4588daef0b1a1427e6'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '626975;0', 'Initial atomic coordinate u': '287799;0', 'Initial atomic coordinate v': '347091;0', 'Initial atomic coordinate w': '629587;0', "Calculated atomic coordinates u'": '281654;0', "Calculated atomic coordinates v'": 347181.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,417 INFO {'_id': ObjectId('62150c4588daef0b1a1427e7'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '676395;0', 'Initial atomic coordinate u': '333719;0', 'Initial atomic coordinate v': '398373;0', 'Initial atomic coordinate w': '681201;0', "Calculated atomic coordinates u'": '328875;0', "Calculated atomic coordinates v'": 39812.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,417 INFO {'_id': ObjectId('62150c4588daef0b1a1427e8'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '310143;0', 'Initial atomic coordinate u': '157965;0', 'Initial atomic coordinate v': '372732;0', 'Initial atomic coordinate w': '302334;0', "Calculated atomic coordinates u'": '145784;0', "Calculated atomic coordinates v'": 372843.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,418 INFO {'_id': ObjectId('62150c4588daef0b1a1427e9'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '358373;0', 'Initial atomic coordinate u': '158904;0', 'Initial atomic coordinate v': '424014;0', 'Initial atomic coordinate w': '353453;0', "Calculated atomic coordinates u'": '147347;0', "Calculated atomic coordinates v'": 423789.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,418 INFO {'_id': ObjectId('62150c4588daef0b1a1427ea'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '247375;0', 'Initial atomic coordinate u': '173109;0', 'Initial atomic coordinate v': '462475;0', 'Initial atomic coordinate w': '23946;0', "Calculated atomic coordinates u'": '163199;0', "Calculated atomic coordinates v'": 46265.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,418 INFO {'_id': ObjectId('62150c4588daef0b1a1427eb'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '287799;0', 'Initial atomic coordinate u': '160824;0', 'Initial atomic coordinate v': '513758;0', 'Initial atomic coordinate w': '281248;0', "Calculated atomic coordinates u'": '15005;0', "Calculated atomic coordinates v'": 513639.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,418 INFO {'_id': ObjectId('62150c4588daef0b1a1427ec'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '165883;0', 'Initial atomic coordinate u': '399052;0', 'Initial atomic coordinate v': '488116;0', 'Initial atomic coordinate w': '154989;0', "Calculated atomic coordinates u'": '395334;0', "Calculated atomic coordinates v'": 488273.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,419 INFO {'_id': ObjectId('62150c4588daef0b1a1427ed'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '157965;0', 'Initial atomic coordinate u': '347821;0', 'Initial atomic coordinate v': '539399;0', 'Initial atomic coordinate w': '146049;0', "Calculated atomic coordinates u'": '342193;0', "Calculated atomic coordinates v'": 53927.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,419 INFO {'_id': ObjectId('62150c4588daef0b1a1427ee'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '193861;0', 'Initial atomic coordinate u': '480367;0', 'Initial atomic coordinate v': '57786;0', 'Initial atomic coordinate w': '184633;0', "Calculated atomic coordinates u'": '480065;0', "Calculated atomic coordinates v'": 577905.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,419 INFO {'_id': ObjectId('62150c4588daef0b1a1427ef'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '173109;0', 'Initial atomic coordinate u': '425734;0', 'Initial atomic coordinate v': '629142;0', 'Initial atomic coordinate w': '164454;0', "Calculated atomic coordinates u'": '424181;0', "Calculated atomic coordinates v'": 628913.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,419 INFO {'_id': ObjectId('62150c4588daef0b1a1427f0'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '452898;0', 'Initial atomic coordinate u': '770442;0', 'Initial atomic coordinate v': '603501;0', 'Initial atomic coordinate w': '45224;0', "Calculated atomic coordinates u'": '777837;0', "Calculated atomic coordinates v'": 603562.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,420 INFO {'_id': ObjectId('62150c4588daef0b1a1427f1'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '399052;0', 'Initial atomic coordinate u': '733169;0', 'Initial atomic coordinate v': '654783;0', 'Initial atomic coordinate w': '39672;0', "Calculated atomic coordinates u'": '74002;0', "Calculated atomic coordinates v'": 654627.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,420 INFO {'_id': ObjectId('62150c4588daef0b1a1427f2'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '535508;0', 'Initial atomic coordinate u': '812967;0', 'Initial atomic coordinate v': '693245;0', 'Initial atomic coordinate w': '537723;0', "Calculated atomic coordinates u'": '824081;0', "Calculated atomic coordinates v'": 693457.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,420 INFO {'_id': ObjectId('62150c4588daef0b1a1427f3'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '480367;0', 'Initial atomic coordinate u': '786506;0', 'Initial atomic coordinate v': '744527;0', 'Initial atomic coordinate w': '480085;0', "Calculated atomic coordinates u'": '796017;0', "Calculated atomic coordinates v'": 74443.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,420 INFO {'_id': ObjectId('62150c4588daef0b1a1427f4'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '800711;0', 'Initial atomic coordinate u': '792748;0', 'Initial atomic coordinate v': '718886;0', 'Initial atomic coordinate w': '80951;0', "Calculated atomic coordinates u'": '800935;0', "Calculated atomic coordinates v'": 718976.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,421 INFO {'_id': ObjectId('62150c4588daef0b1a1427f5'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '770442;0', 'Initial atomic coordinate u': '817544;0', 'Initial atomic coordinate v': '770168;0', 'Initial atomic coordinate w': '777756;0', "Calculated atomic coordinates u'": '826235;0', "Calculated atomic coordinates v'": 769914.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,421 INFO {'_id': ObjectId('62150c4588daef0b1a1427f6'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '831322;0', 'Initial atomic coordinate u': '741592;0', 'Initial atomic coordinate v': '808629;0', 'Initial atomic coordinate w': '840186;0', "Calculated atomic coordinates u'": '747541;0', "Calculated atomic coordinates v'": 808798.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,421 INFO {'_id': ObjectId('62150c4588daef0b1a1427f7'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '812967;0', 'Initial atomic coordinate u': '777458;0', 'Initial atomic coordinate v': '859911;0', 'Initial atomic coordinate w': '824224;0', "Calculated atomic coordinates u'": '787161;0', "Calculated atomic coordinates v'": 859757.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,421 INFO {'_id': ObjectId('62150c4588daef0b1a1427f8'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '834117;0', 'Initial atomic coordinate u': '600948;0', 'Initial atomic coordinate v': '32145;0', 'Initial atomic coordinate w': '845011;0', "Calculated atomic coordinates u'": '604666;0', "Calculated atomic coordinates v'": 321607.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,422 INFO {'_id': ObjectId('62150c4588daef0b1a1427f9'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '842035;0', 'Initial atomic coordinate u': '652179;0', 'Initial atomic coordinate v': '372732;0', 'Initial atomic coordinate w': '853951;0', "Calculated atomic coordinates u'": '657807;0', "Calculated atomic coordinates v'": 372603.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,422 INFO {'_id': ObjectId('62150c4588daef0b1a1427fa'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '806139;0', 'Initial atomic coordinate u': '519633;0', 'Initial atomic coordinate v': '411193;0', 'Initial atomic coordinate w': '815366;0', "Calculated atomic coordinates u'": '519935;0', "Calculated atomic coordinates v'": 411238.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,422 INFO {'_id': ObjectId('62150c4588daef0b1a1427fb'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '826891;0', 'Initial atomic coordinate u': '574266;0', 'Initial atomic coordinate v': '462475;0', 'Initial atomic coordinate w': '835546;0', "Calculated atomic coordinates u'": '575819;0', "Calculated atomic coordinates v'": 462247.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,423 INFO {'_id': ObjectId('62150c4588daef0b1a1427fc'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '547102;0', 'Initial atomic coordinate u': '229558;0', 'Initial atomic coordinate v': '436834;0', 'Initial atomic coordinate w': '54776;0', "Calculated atomic coordinates u'": '222163;0', "Calculated atomic coordinates v'": 436895.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,423 INFO {'_id': ObjectId('62150c4588daef0b1a1427fd'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '600948;0', 'Initial atomic coordinate u': '266831;0', 'Initial atomic coordinate v': '488116;0', 'Initial atomic coordinate w': '60328;0', "Calculated atomic coordinates u'": '259979;0', "Calculated atomic coordinates v'": 487961.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,423 INFO {'_id': ObjectId('62150c4588daef0b1a1427fe'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '464492;0', 'Initial atomic coordinate u': '187033;0', 'Initial atomic coordinate v': '526578;0', 'Initial atomic coordinate w': '462277;0', "Calculated atomic coordinates u'": '175919;0', "Calculated atomic coordinates v'": 52679.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,697 INFO {'_id': ObjectId('62150c4588daef0b1a1427ff'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '519633;0', 'Initial atomic coordinate u': '213494;0', 'Initial atomic coordinate v': '57786;0', 'Initial atomic coordinate w': '519915;0', "Calculated atomic coordinates u'": '203983;0', "Calculated atomic coordinates v'": 577763.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,697 INFO {'_id': ObjectId('62150c4588daef0b1a142800'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '199289;0', 'Initial atomic coordinate u': '207252;0', 'Initial atomic coordinate v': '552219;0', 'Initial atomic coordinate w': '19049;0', "Calculated atomic coordinates u'": '199065;0', "Calculated atomic coordinates v'": 55231.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,698 INFO {'_id': ObjectId('62150c4588daef0b1a142801'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '229558;0', 'Initial atomic coordinate u': '182456;0', 'Initial atomic coordinate v': '603501;0', 'Initial atomic coordinate w': '222244;0', "Calculated atomic coordinates u'": '173765;0', "Calculated atomic coordinates v'": 603247.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,698 INFO {'_id': ObjectId('62150c4588daef0b1a142802'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '168678;0', 'Initial atomic coordinate u': '258408;0', 'Initial atomic coordinate v': '641963;0', 'Initial atomic coordinate w': '159814;0', "Calculated atomic coordinates u'": '252459;0', "Calculated atomic coordinates v'": 642132.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,698 INFO {'_id': ObjectId('62150c4588daef0b1a142803'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '187033;0', 'Initial atomic coordinate u': '222542;0', 'Initial atomic coordinate v': '693245;0', 'Initial atomic coordinate w': '175776;0', "Calculated atomic coordinates u'": '212839;0', "Calculated atomic coordinates v'": 69309.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,698 INFO {'_id': ObjectId('62150c4588daef0b1a142804'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '23963;0', 'Initial atomic coordinate u': '562823;0', 'Initial atomic coordinate v': '667604;0', 'Initial atomic coordinate w': '233582;0', "Calculated atomic coordinates u'": '56548;0', "Calculated atomic coordinates v'": 667841.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,698 INFO {'_id': ObjectId('62150c4588daef0b1a142805'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '207252;0', 'Initial atomic coordinate u': '507963;0', 'Initial atomic coordinate v': '718886;0', 'Initial atomic coordinate w': '19996;0', "Calculated atomic coordinates u'": '508269;0', "Calculated atomic coordinates v'": 718825.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,699 INFO {'_id': ObjectId('62150c4588daef0b1a142806'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '300532;0', 'Initial atomic coordinate u': '641627;0', 'Initial atomic coordinate v': '757347;0', 'Initial atomic coordinate w': '295534;0', "Calculated atomic coordinates u'": '645899;0', "Calculated atomic coordinates v'": 757623.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,699 INFO {'_id': ObjectId('62150c4588daef0b1a142807'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '258408;0', 'Initial atomic coordinate u': '58973;0', 'Initial atomic coordinate v': '808629;0', 'Initial atomic coordinate w': '251935;0', "Calculated atomic coordinates u'": '591484;0', "Calculated atomic coordinates v'": 808634.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,699 INFO {'_id': ObjectId('62150c4588daef0b1a142808'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '616055;0', 'Initial atomic coordinate u': '837302;0', 'Initial atomic coordinate v': '782988;0', 'Initial atomic coordinate w': '62016;0', "Calculated atomic coordinates u'": '847847;0', "Calculated atomic coordinates v'": 783076.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,699 INFO {'_id': ObjectId('62150c4588daef0b1a142809'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '562823;0', 'Initial atomic coordinate u': '823192;0', 'Initial atomic coordinate v': '83427;0', 'Initial atomic coordinate w': '565441;0', "Calculated atomic coordinates u'": '832521;0', "Calculated atomic coordinates v'": 834104.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,700 INFO {'_id': ObjectId('62150c4588daef0b1a14280a'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '689857;0', 'Initial atomic coordinate u': '842035;0', 'Initial atomic coordinate v': '872732;0', 'Initial atomic coordinate w': '697666;0', "Calculated atomic coordinates u'": '854216;0', "Calculated atomic coordinates v'": 872843.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,700 INFO {'_id': ObjectId('62150c4588daef0b1a14280b'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '641627;0', 'Initial atomic coordinate u': '841096;0', 'Initial atomic coordinate v': '924014;0', 'Initial atomic coordinate w': '646547;0', "Calculated atomic coordinates u'": '852653;0', "Calculated atomic coordinates v'": 923789.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,700 INFO {'_id': ObjectId('62150c4588daef0b1a14280c'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '842677;0', 'Initial atomic coordinate u': '676395;0', 'Initial atomic coordinate v': '898373;0', 'Initial atomic coordinate w': '853659;0', "Calculated atomic coordinates u'": '68182;0', "Calculated atomic coordinates v'": 898585.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,700 INFO {'_id': ObjectId('62150c4588daef0b1a14280d'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '837302;0', 'Initial atomic coordinate u': '721248;0', 'Initial atomic coordinate v': '949655;0', 'Initial atomic coordinate w': '847932;0', "Calculated atomic coordinates u'": '728745;0', "Calculated atomic coordinates v'": 949569.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,700 INFO {'_id': ObjectId('62150c4588daef0b1a14280e'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '76037;0', 'Initial atomic coordinate u': '437177;0', 'Initial atomic coordinate v': '500937;0', 'Initial atomic coordinate w': '766418;0', "Calculated atomic coordinates u'": '43452;0', "Calculated atomic coordinates v'": 501175.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,701 INFO {'_id': ObjectId('62150c4588daef0b1a14280f'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '792748;0', 'Initial atomic coordinate u': '492037;0', 'Initial atomic coordinate v': '552219;0', 'Initial atomic coordinate w': '80004;0', "Calculated atomic coordinates u'": '491731;0', "Calculated atomic coordinates v'": 552158.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,701 INFO {'_id': ObjectId('62150c4588daef0b1a142810'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '699468;0', 'Initial atomic coordinate u': '358373;0', 'Initial atomic coordinate v': '590681;0', 'Initial atomic coordinate w': '704466;0', "Calculated atomic coordinates u'": '354101;0', "Calculated atomic coordinates v'": 590956.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,701 INFO {'_id': ObjectId('62150c4588daef0b1a142811'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '741592;0', 'Initial atomic coordinate u': '41027;0', 'Initial atomic coordinate v': '641963;0', 'Initial atomic coordinate w': '748065;0', "Calculated atomic coordinates u'": '408516;0', "Calculated atomic coordinates v'": 641967.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,701 INFO {'_id': ObjectId('62150c4588daef0b1a142812'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '383945;0', 'Initial atomic coordinate u': '162698;0', 'Initial atomic coordinate v': '616322;0', 'Initial atomic coordinate w': '37984;0', "Calculated atomic coordinates u'": '152153;0', "Calculated atomic coordinates v'": 616409.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,701 INFO {'_id': ObjectId('62150c4588daef0b1a142813'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '437177;0', 'Initial atomic coordinate u': '176808;0', 'Initial atomic coordinate v': '667604;0', 'Initial atomic coordinate w': '434559;0', "Calculated atomic coordinates u'": '167479;0', "Calculated atomic coordinates v'": 667437.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,702 INFO {'_id': ObjectId('62150c4588daef0b1a142814'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '310143;0', 'Initial atomic coordinate u': '157965;0', 'Initial atomic coordinate v': '706065;0', 'Initial atomic coordinate w': '302334;0', "Calculated atomic coordinates u'": '145784;0', "Calculated atomic coordinates v'": 706176.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,702 INFO {'_id': ObjectId('62150c4588daef0b1a142815'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '358373;0', 'Initial atomic coordinate u': '158904;0', 'Initial atomic coordinate v': '757347;0', 'Initial atomic coordinate w': '353453;0', "Calculated atomic coordinates u'": '147347;0', "Calculated atomic coordinates v'": 757122.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,702 INFO {'_id': ObjectId('62150c4588daef0b1a142816'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '157323;0', 'Initial atomic coordinate u': '323605;0', 'Initial atomic coordinate v': '731706;0', 'Initial atomic coordinate w': '146341;0', "Calculated atomic coordinates u'": '31818;0', "Calculated atomic coordinates v'": 731918.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,702 INFO {'_id': ObjectId('62150c4588daef0b1a142817'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '162698;0', 'Initial atomic coordinate u': '278752;0', 'Initial atomic coordinate v': '782988;0', 'Initial atomic coordinate w': '152068;0', "Calculated atomic coordinates u'": '271255;0', "Calculated atomic coordinates v'": 782903.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,702 INFO {'_id': ObjectId('62150c4588daef0b1a142818'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '165883;0', 'Initial atomic coordinate u': '399052;0', 'Initial atomic coordinate v': '82145;0', 'Initial atomic coordinate w': '154989;0', "Calculated atomic coordinates u'": '395334;0', "Calculated atomic coordinates v'": 821607.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,703 INFO {'_id': ObjectId('62150c4588daef0b1a142819'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '157965;0', 'Initial atomic coordinate u': '347821;0', 'Initial atomic coordinate v': '872732;0', 'Initial atomic coordinate w': '146049;0', "Calculated atomic coordinates u'": '342193;0', "Calculated atomic coordinates v'": 872603.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,703 INFO {'_id': ObjectId('62150c4588daef0b1a14281a'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '373025;0', 'Initial atomic coordinate u': '712201;0', 'Initial atomic coordinate v': '847091;0', 'Initial atomic coordinate w': '370413;0', "Calculated atomic coordinates u'": '718345;0', "Calculated atomic coordinates v'": 847181.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,703 INFO {'_id': ObjectId('62150c4588daef0b1a14281b'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '323605;0', 'Initial atomic coordinate u': '666281;0', 'Initial atomic coordinate v': '898373;0', 'Initial atomic coordinate w': '318799;0', "Calculated atomic coordinates u'": '671125;0', "Calculated atomic coordinates v'": 89812.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,703 INFO {'_id': ObjectId('62150c4588daef0b1a14281c'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '452898;0', 'Initial atomic coordinate u': '770442;0', 'Initial atomic coordinate v': '936834;0', 'Initial atomic coordinate w': '45224;0', "Calculated atomic coordinates u'": '777837;0', "Calculated atomic coordinates v'": 936895.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,704 INFO {'_id': ObjectId('62150c4588daef0b1a14281d'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '399052;0', 'Initial atomic coordinate u': '733169;0', 'Initial atomic coordinate v': '988116;0', 'Initial atomic coordinate w': '39672;0', "Calculated atomic coordinates u'": '74002;0', "Calculated atomic coordinates v'": 987961.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,704 INFO {'_id': ObjectId('62150c4588daef0b1a14281e'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '752625;0', 'Initial atomic coordinate u': '826891;0', 'Initial atomic coordinate v': '962475;0', 'Initial atomic coordinate w': '76054;0', "Calculated atomic coordinates u'": '836801;0', "Calculated atomic coordinates v'": 96265.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,704 INFO {'_id': ObjectId('62150c4588daef0b1a14281f'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '834117;0', 'Initial atomic coordinate u': '600948;0', 'Initial atomic coordinate v': '654783;0', 'Initial atomic coordinate w': '845011;0', "Calculated atomic coordinates u'": '604666;0', "Calculated atomic coordinates v'": 65494.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,704 INFO {'_id': ObjectId('62150c4588daef0b1a142820'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '842035;0', 'Initial atomic coordinate u': '652179;0', 'Initial atomic coordinate v': '706065;0', 'Initial atomic coordinate w': '853951;0', "Calculated atomic coordinates u'": '657806;0', "Calculated atomic coordinates v'": 705936.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,705 INFO {'_id': ObjectId('62150c4588daef0b1a142821'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '626975;0', 'Initial atomic coordinate u': '287799;0', 'Initial atomic coordinate v': '680424;0', 'Initial atomic coordinate w': '629587;0', "Calculated atomic coordinates u'": '281654;0', "Calculated atomic coordinates v'": 680515.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,705 INFO {'_id': ObjectId('62150c4588daef0b1a142822'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '676395;0', 'Initial atomic coordinate u': '333719;0', 'Initial atomic coordinate v': '731706;0', 'Initial atomic coordinate w': '681201;0', "Calculated atomic coordinates u'": '328875;0', "Calculated atomic coordinates v'": 731453.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,705 INFO {'_id': ObjectId('62150c4588daef0b1a142823'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '547102;0', 'Initial atomic coordinate u': '229558;0', 'Initial atomic coordinate v': '770168;0', 'Initial atomic coordinate w': '54776;0', "Calculated atomic coordinates u'": '222163;0', "Calculated atomic coordinates v'": 770228.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,705 INFO {'_id': ObjectId('62150c4588daef0b1a142824'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '600948;0', 'Initial atomic coordinate u': '266831;0', 'Initial atomic coordinate v': '82145;0', 'Initial atomic coordinate w': '60328;0', "Calculated atomic coordinates u'": '259979;0', "Calculated atomic coordinates v'": 821294.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,705 INFO {'_id': ObjectId('62150c4588daef0b1a142825'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '247375;0', 'Initial atomic coordinate u': '173109;0', 'Initial atomic coordinate v': '795809;0', 'Initial atomic coordinate w': '23946;0', "Calculated atomic coordinates u'": '163199;0', "Calculated atomic coordinates v'": 795984.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,706 INFO {'_id': ObjectId('62150c4588daef0b1a142826'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '287799;0', 'Initial atomic coordinate u': '160824;0', 'Initial atomic coordinate v': '847091;0', 'Initial atomic coordinate w': '281248;0', "Calculated atomic coordinates u'": '15005;0', "Calculated atomic coordinates v'": 846972.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,706 INFO {'_id': ObjectId('62150c4588daef0b1a142827'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '199289;0', 'Initial atomic coordinate u': '207252;0', 'Initial atomic coordinate v': '885552;0', 'Initial atomic coordinate w': '19049;0', "Calculated atomic coordinates u'": '199065;0', "Calculated atomic coordinates v'": 885643.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,706 INFO {'_id': ObjectId('62150c4588daef0b1a142828'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '229558;0', 'Initial atomic coordinate u': '182456;0', 'Initial atomic coordinate v': '936834;0', 'Initial atomic coordinate w': '222244;0', "Calculated atomic coordinates u'": '173765;0', "Calculated atomic coordinates v'": 936581.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,706 INFO {'_id': ObjectId('62150c4588daef0b1a142829'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '193861;0', 'Initial atomic coordinate u': '480367;0', 'Initial atomic coordinate v': '911193;0', 'Initial atomic coordinate w': '184634;0', "Calculated atomic coordinates u'": '480064;0', "Calculated atomic coordinates v'": 911238.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,706 INFO {'_id': ObjectId('62150c4588daef0b1a14282a'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '173109;0', 'Initial atomic coordinate u': '425734;0', 'Initial atomic coordinate v': '962475;0', 'Initial atomic coordinate w': '164454;0', "Calculated atomic coordinates u'": '42418;0', "Calculated atomic coordinates v'": 962246.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,707 INFO {'_id': ObjectId('62150c4588daef0b1a14282b'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '806139;0', 'Initial atomic coordinate u': '519633;0', 'Initial atomic coordinate v': '744527;0', 'Initial atomic coordinate w': '815366;0', "Calculated atomic coordinates u'": '519935;0', "Calculated atomic coordinates v'": 744572.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,707 INFO {'_id': ObjectId('62150c4588daef0b1a14282c'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '826891;0', 'Initial atomic coordinate u': '574266;0', 'Initial atomic coordinate v': '795809;0', 'Initial atomic coordinate w': '835546;0', "Calculated atomic coordinates u'": '575819;0', "Calculated atomic coordinates v'": 79558.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,707 INFO {'_id': ObjectId('62150c4588daef0b1a14282d'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '76037;0', 'Initial atomic coordinate u': '437177;0', 'Initial atomic coordinate v': '83427;0', 'Initial atomic coordinate w': '766418;0', "Calculated atomic coordinates u'": '43452;0', "Calculated atomic coordinates v'": 834508.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,707 INFO {'_id': ObjectId('62150c4588daef0b1a14282e'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '792748;0', 'Initial atomic coordinate u': '492037;0', 'Initial atomic coordinate v': '885552;0', 'Initial atomic coordinate w': '80004;0', "Calculated atomic coordinates u'": '491731;0', "Calculated atomic coordinates v'": 885491.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,708 INFO {'_id': ObjectId('62150c4588daef0b1a14282f'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '464492;0', 'Initial atomic coordinate u': '187033;0', 'Initial atomic coordinate v': '859911;0', 'Initial atomic coordinate w': '462277;0', "Calculated atomic coordinates u'": '175919;0', "Calculated atomic coordinates v'": 860124.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,708 INFO {'_id': ObjectId('62150c4588daef0b1a142830'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '519633;0', 'Initial atomic coordinate u': '213494;0', 'Initial atomic coordinate v': '911193;0', 'Initial atomic coordinate w': '519915;0', "Calculated atomic coordinates u'": '203983;0', "Calculated atomic coordinates v'": 911097.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,708 INFO {'_id': ObjectId('62150c4588daef0b1a142831'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '383945;0', 'Initial atomic coordinate u': '162698;0', 'Initial atomic coordinate v': '949655;0', 'Initial atomic coordinate w': '37984;0', "Calculated atomic coordinates u'": '152153;0', "Calculated atomic coordinates v'": 949743.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,708 INFO {'_id': ObjectId('62150c4588daef0b1a142832'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '168678;0', 'Initial atomic coordinate u': '258408;0', 'Initial atomic coordinate v': '975296;0', 'Initial atomic coordinate w': '159814;0', "Calculated atomic coordinates u'": '252459;0', "Calculated atomic coordinates v'": 975465.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,708 INFO {'_id': ObjectId('62150c4588daef0b1a142833'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '699468;0', 'Initial atomic coordinate u': '358373;0', 'Initial atomic coordinate v': '924014;0', 'Initial atomic coordinate w': '704466;0', "Calculated atomic coordinates u'": '354101;0', "Calculated atomic coordinates v'": 92429.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,709 INFO {'_id': ObjectId('62150c4588daef0b1a142834'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '741592;0', 'Initial atomic coordinate u': '41027;0', 'Initial atomic coordinate v': '975296;0', 'Initial atomic coordinate w': '748064;0', "Calculated atomic coordinates u'": '408516;0', "Calculated atomic coordinates v'": 975301.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,709 INFO {'_id': ObjectId('62150c4588daef0b1a142835'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '834117;0', 'Initial atomic coordinate u': '600948;0', 'Initial atomic coordinate v': '988116;0', 'Initial atomic coordinate w': '845011;0', "Calculated atomic coordinates u'": '604666;0', "Calculated atomic coordinates v'": 988273.0, "Calculated atomic coordinates w'": '999.99'}
+2022-02-22 21:59:21,709 INFO {'_id': ObjectId('62150d6688daef0b1a144f45'), 'Chiral indice n': '5;2;0', 'Chiral indice m': '168678;0', 'Initial atomic coordinate u': '258408;0', 'Initial atomic coordinate v': '975296;0', 'Initial atomic coordinate w': '159814;0', "Calculated atomic coordinates u'": '252459;0', "Calculated atomic coordinates v'": 975465.0, "Calculated atomic coordinates w'": 'nan'}
